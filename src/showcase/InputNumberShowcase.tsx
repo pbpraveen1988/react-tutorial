@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InputNumber} from '../basecomponent/numericinput/InputNumber'
+import { InputNumber} from '../components/inputnumber/InputNumber'
 export class InputNumberShowcase extends React.Component<{},{}> {
     public render() {
         return (

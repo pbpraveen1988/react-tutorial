@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InputText } from '../components/textinput/InputText';
+import { InputText } from '../components/inputtext/InputText';
 export class InputTextShowcase extends React.Component<{}, {}>{
     public render() {
         return (
