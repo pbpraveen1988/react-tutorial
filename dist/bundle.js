@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 55);
+/******/ 	return __webpack_require__(__webpack_require__.s = 56);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -479,7 +479,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ICON_LARGE", function() { return ICON_LARGE; });
 /* harmony export (immutable) */ __webpack_exports__["iconClass"] = iconClass;
 /* harmony export (immutable) */ __webpack_exports__["intentClass"] = intentClass;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__intent__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__intent__ = __webpack_require__(29);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
  *
@@ -1070,7 +1070,7 @@ var DIALOG_WARN_NO_HEADER_CLOSE_BUTTON = ns + " <Dialog> isCloseButtonShown prop
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__abstractComponent__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__colors__ = __webpack_require__(62);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__colors__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intent__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intent__ = __webpack_require__(29);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__intent__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__position__ = __webpack_require__(11);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_3__position__["a"]; });
@@ -1078,7 +1078,7 @@ var DIALOG_WARN_NO_HEADER_CLOSE_BUTTON = ns + " <Dialog> isCloseButtonShown prop
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_3__position__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__props__ = __webpack_require__(14);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_4__props__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tetherUtils__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tetherUtils__ = __webpack_require__(30);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_5__tetherUtils__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_5__tetherUtils__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__tetherUtils__["c"]; });
@@ -1530,9 +1530,9 @@ function removeNonHTMLProps(props, invalidProps, shouldMerge) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_position__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_tetherUtils__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_tetherUtils__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__common_utils_isDarkTheme__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__common_utils_isDarkTheme__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__overlay_overlay__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__tooltip_tooltip__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__arrows__ = __webpack_require__(84);
@@ -2004,7 +2004,7 @@ var PopoverFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Popove
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__common_keys__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__portal_portal__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__portal_portal__ = __webpack_require__(36);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
  *
@@ -2332,7 +2332,7 @@ var AnchorButtonFactory = __WEBPACK_IMPORTED_MODULE_1_react__["createFactory"](A
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__keyCombo__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__keyCombo__ = __webpack_require__(43);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -3028,6 +3028,153 @@ function isMac(platformOverride) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__accessibility__ = __webpack_require__(58);
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FOCUS_DISABLED_CLASS", function() { return __WEBPACK_IMPORTED_MODULE_0__accessibility__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FocusStyleManager", function() { return __WEBPACK_IMPORTED_MODULE_0__accessibility__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common__ = __webpack_require__(8);
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Classes", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Keys", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Utils", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "IconClasses", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "IconContents", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AbstractComponent", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Colors", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Intent", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Position", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isPositionHorizontal", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["n"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isPositionVertical", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["o"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "removeNonHTMLProps", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["p"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "createTetherOptions", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["j"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getTargetAttachment", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPopoverAttachment", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["l"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getAttachmentClasses", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["k"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components__ = __webpack_require__(31);
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ContextMenu", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["q"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ButtonFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnchorButton", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnchorButtonFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Callout", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Elevation", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["z"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Card", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["j"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnimationStates", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapseFrom", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["n"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapsibleList", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["o"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapsibleListFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["p"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ContextMenuTarget", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["r"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Dialog", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["v"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "DialogFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["w"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "EditableText", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["x"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "EditableTextFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["y"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ControlGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["t"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ControlGroupFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["u"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Control", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["s"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["k"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_24"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_9"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CheckboxFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["l"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SwitchFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_25"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RadioFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_10"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FileUpload", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["B"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FileUploadFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["C"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["D"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["I"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "InputGroupFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["J"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["L"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "LabelFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["M"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NumericInput", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Z"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NumericInputFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_0"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RadioGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_11"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TextArea", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_41"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TextAreaFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_42"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Hotkey", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["E"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "KeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["K"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "HotkeysTarget", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["G"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "comboMatches", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_51"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getKeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_52"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getKeyComboString", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_53"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "parseKeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_55"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hideHotkeysDialog", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_54"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "setHotkeysDialogProps", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_57"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Hotkeys", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["F"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Icon", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["H"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Menu", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["N"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Q"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuDivider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["O"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuDividerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["P"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["R"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "renderMenuItem", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_56"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuItemFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["S"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["T"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarDivider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["U"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["V"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarHeading", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["W"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NonIdealState", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["X"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NonIdealStateFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Y"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_1"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "OverlayFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_2"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Text", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_40"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PopoverInteractionKind", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_5"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_3"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PopoverFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_4"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGPopover", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_14"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGPopoverFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_15"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Portal", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_6"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_7"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ProgressBarFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_8"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGTooltip", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_18"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGTooltipFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_19"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_12"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RangeSliderFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_13"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Slider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_20"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SliderFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_21"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Spinner", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_22"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SpinnerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_23"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGSpinner", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_16"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGSpinnerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_17"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_26"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_29"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_34"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabsFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_37"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabList", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_30"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabListFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_31"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabPanel", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_32"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabPanelFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_33"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab2", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_27"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab2Factory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_28"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Expander", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["A"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs2", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_35"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs2Factory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_36"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tag", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_38"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TagFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_39"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Toast", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_43"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ToastFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_44"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Toaster", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_45"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_46"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TooltipFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_47"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tree", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_48"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_49"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeNode", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_50"]; });
+/*
+ * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the terms of the LICENSE file distributed with this project.
+ */
+
+
+
+
+
+/***/ }),
+/* 29 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Intent; });
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -3048,7 +3195,7 @@ var Intent;
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3132,12 +3279,12 @@ function expandAttachmentClasses(attachments, prefix) {
 
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return ContextMenu; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__context_menu_contextMenu__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__context_menu_contextMenu__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_alert__ = __webpack_require__(85);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__alert_alert__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__breadcrumbs_breadcrumb__ = __webpack_require__(87);
@@ -3154,7 +3301,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__card_card__ = __webpack_require__(90);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__card_card__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_6__card_card__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__collapse_collapse__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__collapse_collapse__ = __webpack_require__(38);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_7__collapse_collapse__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_7__collapse_collapse__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__collapsible_list_collapsibleList__ = __webpack_require__(91);
@@ -3163,7 +3310,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_8__collapsible_list_collapsibleList__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__context_menu_contextMenuTarget__ = __webpack_require__(92);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_9__context_menu_contextMenuTarget__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__dialog_dialog__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__dialog_dialog__ = __webpack_require__(37);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_10__dialog_dialog__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_10__dialog_dialog__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__editable_text_editableText__ = __webpack_require__(93);
@@ -3172,7 +3319,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__forms_controlGroup__ = __webpack_require__(96);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_12__forms_controlGroup__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_12__forms_controlGroup__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__forms_controls__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__forms_controls__ = __webpack_require__(40);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_13__forms_controls__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__forms_controls__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_13__forms_controls__["c"]; });
@@ -3185,7 +3332,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_14__forms_fileUpload__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__forms_formGroup__ = __webpack_require__(98);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_15__forms_formGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__forms_inputGroup__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__forms_inputGroup__ = __webpack_require__(41);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_16__forms_inputGroup__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_16__forms_inputGroup__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__forms_label__ = __webpack_require__(99);
@@ -3199,7 +3346,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__forms_textArea__ = __webpack_require__(102);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_41", function() { return __WEBPACK_IMPORTED_MODULE_20__forms_textArea__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_42", function() { return __WEBPACK_IMPORTED_MODULE_20__forms_textArea__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__hotkeys_hotkeys__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__hotkeys_hotkeys__ = __webpack_require__(42);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_21__hotkeys_hotkeys__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_21__hotkeys_hotkeys__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_21__hotkeys_hotkeys__["c"]; });
@@ -3218,17 +3365,17 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__menu_menuDivider__ = __webpack_require__(105);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_24__menu_menuDivider__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_24__menu_menuDivider__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__menu_menuItem__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__menu_menuItem__ = __webpack_require__(39);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_25__menu_menuItem__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_25__menu_menuItem__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_56", function() { return __WEBPACK_IMPORTED_MODULE_25__menu_menuItem__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__navbar_navbar__ = __webpack_require__(106);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_26__navbar_navbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__navbar_navbarDivider__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__navbar_navbarDivider__ = __webpack_require__(45);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_27__navbar_navbarDivider__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__navbar_navbarGroup__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__navbar_navbarGroup__ = __webpack_require__(46);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_28__navbar_navbarGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__navbar_navbarHeading__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__navbar_navbarHeading__ = __webpack_require__(47);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_29__navbar_navbarHeading__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__non_ideal_state_nonIdealState__ = __webpack_require__(107);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_30__non_ideal_state_nonIdealState__["a"]; });
@@ -3245,7 +3392,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__popover_svgPopover__ = __webpack_require__(109);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_34__popover_svgPopover__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_34__popover_svgPopover__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__portal_portal__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__portal_portal__ = __webpack_require__(36);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_35__portal_portal__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__progress_progressBar__ = __webpack_require__(110);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_36__progress_progressBar__["a"]; });
@@ -3265,19 +3412,19 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__spinner_svgSpinner__ = __webpack_require__(114);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_41__spinner_svgSpinner__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_41__spinner_svgSpinner__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__tabs_tab__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__tabs_tab__ = __webpack_require__(50);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_26", function() { return __WEBPACK_IMPORTED_MODULE_42__tabs_tab__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_29", function() { return __WEBPACK_IMPORTED_MODULE_42__tabs_tab__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__tabs_tabs__ = __webpack_require__(115);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_34", function() { return __WEBPACK_IMPORTED_MODULE_43__tabs_tabs__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_37", function() { return __WEBPACK_IMPORTED_MODULE_43__tabs_tabs__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tabs_tabList__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tabs_tabList__ = __webpack_require__(51);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_30", function() { return __WEBPACK_IMPORTED_MODULE_44__tabs_tabList__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_31", function() { return __WEBPACK_IMPORTED_MODULE_44__tabs_tabList__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__tabs_tabPanel__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__tabs_tabPanel__ = __webpack_require__(52);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_32", function() { return __WEBPACK_IMPORTED_MODULE_45__tabs_tabPanel__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_33", function() { return __WEBPACK_IMPORTED_MODULE_45__tabs_tabPanel__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__tabs2_tab2__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__tabs2_tab2__ = __webpack_require__(53);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_27", function() { return __WEBPACK_IMPORTED_MODULE_46__tabs2_tab2__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_28", function() { return __WEBPACK_IMPORTED_MODULE_46__tabs2_tab2__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__tabs2_tabs2__ = __webpack_require__(116);
@@ -3287,7 +3434,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__tag_tag__ = __webpack_require__(118);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_38", function() { return __WEBPACK_IMPORTED_MODULE_48__tag_tag__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_39", function() { return __WEBPACK_IMPORTED_MODULE_48__tag_tag__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__toast_toast__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__toast_toast__ = __webpack_require__(54);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_43", function() { return __WEBPACK_IMPORTED_MODULE_49__toast_toast__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_44", function() { return __WEBPACK_IMPORTED_MODULE_49__toast_toast__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__toast_toaster__ = __webpack_require__(119);
@@ -3298,7 +3445,7 @@ function expandAttachmentClasses(attachments, prefix) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__tree_tree__ = __webpack_require__(120);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_48", function() { return __WEBPACK_IMPORTED_MODULE_52__tree_tree__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_49", function() { return __WEBPACK_IMPORTED_MODULE_52__tree_tree__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__tree_treeNode__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__tree_treeNode__ = __webpack_require__(55);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "_50", function() { return __WEBPACK_IMPORTED_MODULE_53__tree_treeNode__["a"]; });
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
@@ -3369,7 +3516,7 @@ var ContextMenu = __WEBPACK_IMPORTED_MODULE_0__context_menu_contextMenu__;
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3484,7 +3631,7 @@ function isOpen() {
 
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3502,7 +3649,7 @@ function isDarkTheme(element) {
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3515,7 +3662,7 @@ exports.default = !!(typeof window !== 'undefined' && window.document && window.
 module.exports = exports['default'];
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3570,7 +3717,7 @@ var nameShape = exports.nameShape = _propTypes2.default.oneOfType([_propTypes2.d
 })]);
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3645,7 +3792,7 @@ var Portal = (function (_super) {
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3739,7 +3886,7 @@ var DialogFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](Dialog)
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3908,7 +4055,7 @@ var Collapse = (function (_super) {
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4093,7 +4240,7 @@ var MenuItemFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](MenuI
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4221,7 +4368,7 @@ var RadioFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](Radio);
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4309,7 +4456,7 @@ var InputGroupFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Inp
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4321,7 +4468,7 @@ var InputGroupFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Inp
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hotkey__ = __webpack_require__(19);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_4__hotkey__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__keyCombo__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__keyCombo__ = __webpack_require__(43);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_5__keyCombo__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__hotkeysTarget__ = __webpack_require__(103);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_6__hotkeysTarget__["a"]; });
@@ -4330,7 +4477,7 @@ var InputGroupFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Inp
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__hotkeyParser__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_7__hotkeyParser__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_7__hotkeyParser__["e"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__hotkeysDialog__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__hotkeysDialog__ = __webpack_require__(44);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_8__hotkeysDialog__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_8__hotkeysDialog__["d"]; });
 /*
@@ -4394,7 +4541,7 @@ var Hotkeys = (function (_super) {
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4455,7 +4602,7 @@ var KeyCombo = (function (_super) {
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4472,9 +4619,9 @@ var KeyCombo = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_dom__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__hotkey__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__hotkeys__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__hotkeys__ = __webpack_require__(42);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -4602,7 +4749,7 @@ function hideHotkeysDialogAfterDelay() {
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4646,7 +4793,7 @@ var NavbarDivider = (function (_super) {
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4698,7 +4845,7 @@ var NavbarGroup = (function (_super) {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4742,7 +4889,7 @@ var NavbarHeading = (function (_super) {
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4896,7 +5043,7 @@ var CoreSlider = (function (_super) {
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5086,7 +5233,7 @@ var Handle = (function (_super) {
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5133,7 +5280,7 @@ var TabFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Tab);
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5191,7 +5338,7 @@ var TabListFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](TabLis
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5234,7 +5381,7 @@ var TabPanelFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](TabPa
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5284,7 +5431,7 @@ var Tab2Factory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Tab2);
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5384,7 +5531,7 @@ var ToastFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Toast);
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5396,7 +5543,7 @@ var ToastFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Toast);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collapse_collapse__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__collapse_collapse__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__icon_icon__ = __webpack_require__(13);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -5469,7 +5616,7 @@ var TreeNode = (function (_super) {
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5477,12 +5624,12 @@ var TreeNode = (function (_super) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var ReactDOM = __webpack_require__(9);
-var Showcase_1 = __webpack_require__(56);
+var Showcase_1 = __webpack_require__(57);
 ReactDOM.render(React.createElement(Showcase_1.Showcase, { compiler: "TypeScript", framework: "React" }), document.getElementById("example"));
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5499,8 +5646,9 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var core_1 = __webpack_require__(57);
+var core_1 = __webpack_require__(28);
 var BaseComponent_1 = __webpack_require__(121);
+var InputTextareaShowcase_1 = __webpack_require__(127);
 // 'HelloProps' describes the shape of props.
 // State is never set so we use the '{}' type.
 var Showcase = /** @class */ (function (_super) {
@@ -5513,7 +5661,8 @@ var Showcase = /** @class */ (function (_super) {
             React.createElement(core_1.Tab2, { id: "rx", title: "React", panel: this.renderBaseComponent('React jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact jsReact js') }),
             React.createElement(core_1.Tab2, { id: "ng", title: "Angular", panel: this.renderBaseComponent('Angular js') }),
             React.createElement(core_1.Tab2, { id: "mb", title: "Ember", panel: this.renderBaseComponent('Ember js') }),
-            React.createElement(core_1.Tab2, { id: "bb", title: "Backbone", panel: this.renderBaseComponent('Backbone js') })));
+            React.createElement(core_1.Tab2, { id: "bb", title: "Backbone", panel: this.renderBaseComponent('Backbone js') }),
+            React.createElement(core_1.Tab2, { id: "textarea", title: "TextArea", panel: this.renderBaseComponent(React.createElement(InputTextareaShowcase_1.InputTextareaShowcase, null)) })));
     };
     Showcase.prototype.renderBaseComponent = function (children) {
         return React.createElement(BaseComponent_1.BaseComponent, { children: children });
@@ -5521,153 +5670,6 @@ var Showcase = /** @class */ (function (_super) {
     return Showcase;
 }(React.Component));
 exports.Showcase = Showcase;
-
-
-/***/ }),
-/* 57 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__accessibility__ = __webpack_require__(58);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FOCUS_DISABLED_CLASS", function() { return __WEBPACK_IMPORTED_MODULE_0__accessibility__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FocusStyleManager", function() { return __WEBPACK_IMPORTED_MODULE_0__accessibility__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common__ = __webpack_require__(8);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Classes", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Keys", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Utils", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "IconClasses", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "IconContents", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AbstractComponent", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Colors", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Intent", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Position", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isPositionHorizontal", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isPositionVertical", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "removeNonHTMLProps", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "createTetherOptions", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getTargetAttachment", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPopoverAttachment", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getAttachmentClasses", function() { return __WEBPACK_IMPORTED_MODULE_1__common__["k"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components__ = __webpack_require__(30);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ContextMenu", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ButtonFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnchorButton", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnchorButtonFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Callout", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Elevation", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Card", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AnimationStates", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapseFrom", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapsibleList", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CollapsibleListFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ContextMenuTarget", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Dialog", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["v"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "DialogFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["w"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "EditableText", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["x"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "EditableTextFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ControlGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["t"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ControlGroupFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["u"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Control", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["s"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_24"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_9"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CheckboxFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SwitchFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_25"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RadioFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_10"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FileUpload", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["B"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FileUploadFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["C"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["D"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["I"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "InputGroupFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["J"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["L"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "LabelFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["M"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NumericInput", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NumericInputFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_0"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RadioGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_11"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TextArea", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_41"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TextAreaFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_42"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Hotkey", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["E"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "KeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["K"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "HotkeysTarget", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["G"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "comboMatches", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_51"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getKeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_52"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getKeyComboString", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_53"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "parseKeyCombo", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_55"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hideHotkeysDialog", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_54"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "setHotkeysDialogProps", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_57"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Hotkeys", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["F"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Icon", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["H"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Menu", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["N"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuDivider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["O"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuDividerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["P"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["R"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "renderMenuItem", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_56"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "MenuItemFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["S"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["T"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarDivider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["U"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarGroup", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["V"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NavbarHeading", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["W"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NonIdealState", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["X"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "NonIdealStateFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["Y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_1"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "OverlayFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_2"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Text", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_40"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PopoverInteractionKind", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_5"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_3"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PopoverFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_4"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGPopover", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_14"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGPopoverFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_15"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Portal", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_6"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_7"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ProgressBarFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_8"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGTooltip", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_18"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGTooltipFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_19"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_12"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "RangeSliderFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_13"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Slider", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_20"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SliderFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_21"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Spinner", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_22"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SpinnerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_23"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGSpinner", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_16"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SVGSpinnerFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_17"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_26"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_29"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_34"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabsFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_37"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabList", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_30"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabListFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_31"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabPanel", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_32"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TabPanelFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_33"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab2", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_27"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tab2Factory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_28"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Expander", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["A"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs2", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_35"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tabs2Factory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_36"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tag", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_38"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TagFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_39"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Toast", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_43"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ToastFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_44"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Toaster", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_45"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_46"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TooltipFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_47"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Tree", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_48"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeFactory", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_49"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeNode", function() { return __WEBPACK_IMPORTED_MODULE_2__components__["_50"]; });
-/*
- * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the terms of the LICENSE file distributed with this project.
- */
-
-
-
 
 
 /***/ }),
@@ -9887,7 +9889,7 @@ var _CSSTransitionGroupChild = __webpack_require__(78);
 
 var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
 
-var _PropTypes = __webpack_require__(34);
+var _PropTypes = __webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11242,7 +11244,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactDom = __webpack_require__(9);
 
-var _PropTypes = __webpack_require__(34);
+var _PropTypes = __webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11508,7 +11510,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _inDOM = __webpack_require__(33);
+var _inDOM = __webpack_require__(34);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -11568,7 +11570,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
 
-var _inDOM = __webpack_require__(33);
+var _inDOM = __webpack_require__(34);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -11772,7 +11774,7 @@ function getArrowPositionStyles(position, arrowSize, ignoreTargetDimensions, tar
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__button_buttons__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_dialog__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_dialog__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__icon_icon__ = __webpack_require__(13);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -12143,7 +12145,7 @@ var Card = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_position__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__menu_menu__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__menu_menuItem__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__menu_menuItem__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__popover_popover__ = __webpack_require__(15);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -12237,8 +12239,8 @@ var CollapsibleListFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_utils_isDarkTheme__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__contextMenu__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_utils_isDarkTheme__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__contextMenu__ = __webpack_require__(32);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -12872,7 +12874,7 @@ var LabelFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Label);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__button_buttons__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__inputGroup__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__inputGroup__ = __webpack_require__(41);
 /*
  * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
  *
@@ -13268,7 +13270,7 @@ var NumericInputFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](N
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_abstractComponent__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_errors__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__controls__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__controls__ = __webpack_require__(40);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -13479,7 +13481,7 @@ function HotkeysTarget(constructor) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_utils__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hotkey__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hotkeyParser__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hotkeysDialog__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hotkeysDialog__ = __webpack_require__(44);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -13654,9 +13656,9 @@ var MenuDividerFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](Me
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_classes__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navbarDivider__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navbarGroup__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navbarHeading__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navbarDivider__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navbarGroup__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navbarHeading__ = __webpack_require__(47);
 /**
  * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
  *
@@ -13968,8 +13970,8 @@ var SVGTooltipFactory = __WEBPACK_IMPORTED_MODULE_1_react__["createFactory"](SVG
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__coreSlider__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__handle__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__coreSlider__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__handle__ = __webpack_require__(49);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -14114,8 +14116,8 @@ var RangeSliderFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](Ra
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__coreSlider__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__handle__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__coreSlider__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__handle__ = __webpack_require__(49);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -14243,9 +14245,9 @@ var SVGSpinnerFactory = __WEBPACK_IMPORTED_MODULE_2_react__["createFactory"](SVG
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__common_errors__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__common_keys__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tabList__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__tabPanel__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tabList__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__tabPanel__ = __webpack_require__(52);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
  *
@@ -14567,7 +14569,7 @@ var TabsFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Tabs);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__common_keys__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__tab2__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__tab2__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tabTitle__ = __webpack_require__(117);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -14909,7 +14911,7 @@ var TagFactory = __WEBPACK_IMPORTED_MODULE_3_react__["createFactory"](Tag);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_position__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_utils__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__overlay_overlay__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toast__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__toast__ = __webpack_require__(54);
 /*
  * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
  *
@@ -15049,7 +15051,7 @@ var Toaster = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_classes__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_utils__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__treeNode__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__treeNode__ = __webpack_require__(55);
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
  *
@@ -15787,6 +15789,92 @@ module.exports = function (css) {
 	// send back the fixed css
 	return fixedCss;
 };
+
+
+/***/ }),
+/* 127 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var InputTextarea_1 = __webpack_require__(128);
+var InputTextareaShowcase = /** @class */ (function (_super) {
+    __extends(InputTextareaShowcase, _super);
+    function InputTextareaShowcase() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    InputTextareaShowcase.prototype.render = function () {
+        return (React.createElement("div", null,
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, null),
+            React.createElement("h4", null, "Disabled TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { disabled: true }),
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { value: 'asdfasdfa adsfasfasdf adfsasdfasdffasadsfasdf' }),
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { intent: 0 }),
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { intent: 1 }),
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { intent: 2 }),
+            React.createElement("h4", null, "Simple TextArea"),
+            React.createElement(InputTextarea_1.InputTextarea, { intent: 3 })));
+    };
+    return InputTextareaShowcase;
+}(React.Component));
+exports.InputTextareaShowcase = InputTextareaShowcase;
+
+
+/***/ }),
+/* 128 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (this && this.__assign) || Object.assign || function(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+            t[p] = s[p];
+    }
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var core_1 = __webpack_require__(28);
+var InputTextarea = /** @class */ (function (_super) {
+    __extends(InputTextarea, _super);
+    function InputTextarea() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    InputTextarea.prototype.render = function () {
+        return React.createElement(core_1.TextArea, __assign({}, this.props));
+    };
+    return InputTextarea;
+}(React.Component));
+exports.InputTextarea = InputTextarea;
 
 
 /***/ })
