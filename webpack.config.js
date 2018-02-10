@@ -33,23 +33,9 @@ module.exports = {
             { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
 
             {
-                test: /\.scss$/,
-                loader: ExtractTextPlugin.extract({
-                    fallback: "style-loader",
-                    use: [{
-                        loader: "css-loader"
-                    }, {
-                        loader: "sass-loader",
-                    }],
-                }),
-            },
-            {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract({
-                    fallback: "style-loader",
-                    use: "css-loader",
-                }),
-            },
+                use: ['style-loader', 'css-loader']
+            }
 
         ]
     },
