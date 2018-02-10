@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './BaseComponent.css';
 
+
 export interface BaseComponentProps {
     children?: JSX.Element | string | HTMLElement;
 }

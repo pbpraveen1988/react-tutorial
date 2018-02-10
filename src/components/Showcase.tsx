@@ -2,8 +2,11 @@ import * as React from "react";
 import * as Blueprint from "@blueprintjs/core";
 import { Tab2, Tabs2 } from "@blueprintjs/core";
 import { BaseComponent } from "./basecomponent/BaseComponent";
-import { InputNumber } from "./basecomponent/numericinput/InputNumber";
+
 import { InputNumberShowcase } from "./showcase/InputNumberShowcase";
+import { InputTextShowcase } from "../showcase/InputTextShowcase";
+import {InputTextareaShowcase} from '../showcase/InputTextareaShowcase'
+
 
 export interface ShowcaseProps { compiler: string; framework: string; }
 
@@ -17,6 +20,8 @@ export class Showcase extends React.Component<ShowcaseProps, {}> {
             <Tab2 id="mb" title="Ember" panel={this.renderBaseComponent('Ember js')} />
             <Tab2 id="bb" title="Backbone" panel={this.renderBaseComponent('Backbone js')} />
             <Tab2 id="in" title="Inputnumber" panel={this.renderBaseComponent(< InputNumberShowcase/>)} />
+            <Tab2 id="it" title="InputText" panel={this.renderBaseComponent(<InputTextShowcase />)} />
+            <Tab2 id="textarea" title="TextArea" panel={this.renderBaseComponent( <InputTextareaShowcase />)} />
 
         </Tabs2>)
     }
