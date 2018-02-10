@@ -23,7 +23,14 @@ export class InputTextShowcase extends React.Component<{}, {}>{
                 <h4>  InputText with intent </h4>
                 <InputText value={'prabir'} intent={3} />
 
+                <h4>  InputText with disabled </h4>
+                <InputText value={'prabir'} disabled />  
 
+                <h4>  InputText with placeholder </h4>
+                <InputText placeholder={'Enter name'} /> 
+
+                <h4>  InputText with type </h4>
+                <InputText type={'password'} /> 
                 
 
             </div>
