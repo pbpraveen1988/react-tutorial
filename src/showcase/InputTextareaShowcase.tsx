@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { InputTextarea } from '../components/inputtextarea/InputTextarea';
+import { InputTextarea } from '../components';
 
 
 export class InputTextareaShowcase extends React.Component<{}, {}>{

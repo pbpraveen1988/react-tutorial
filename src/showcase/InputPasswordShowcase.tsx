@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InputPassword } from '../components/inputpassword/InputPassword';
+import { InputPassword } from '../components';
 import {InputTextShowcaseState} from './InputTextShowcase';
 
 export class InputPasswordShowcase extends React.Component<{}, InputTextShowcaseState>{
