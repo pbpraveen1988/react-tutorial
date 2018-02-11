@@ -45,9 +45,7 @@ export class InputTextShowcase extends React.Component<{}, InputTextShowcaseStat
                 <h4>  InputText with placeholder </h4>
                 <InputText placeholder={'Enter name'} />
 
-                <h4>  InputText with type </h4>
-                <InputText type={'password'} />
-
+               
 
             </div>
         )

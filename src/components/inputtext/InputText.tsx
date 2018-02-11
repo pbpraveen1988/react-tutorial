@@ -17,11 +17,6 @@ export interface InputTextProps {
     value?: string;
 }
 
-
-export interface InputTextState {
-    value?: string;
-}
-
 export const InputText : React.SFC<InputTextProps> = (props) => {
     return <InputGroup   {...props} className={`rt-inputtext ${props.className}`}  />;
 } 
