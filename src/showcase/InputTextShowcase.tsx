@@ -1,37 +1,53 @@
 import * as React from 'react';
 import { InputText } from '../components/inputtext/InputText';
-export class InputTextShowcase extends React.Component<{}, {}>{
+
+export interface InputTextShowcaseState {
+    value1?: string;
+}
+
+export class InputTextShowcase extends React.Component<{}, InputTextShowcaseState>{
+
+    /**
+     *
+     */
+    constructor(props: any) {
+        super(props);
+        this.state = { value1: 'prabir' }
+    }
+
     public render() {
         return (
             <div>
                 <h4> Simple InputText </h4>
-                <InputText value={'prabir'} />
+                <InputText value={this.state.value1} onChange={(event: any) => {
+                    this.setState({ value1: event.target.value })
+                }} />
 
 
                 <h4>  InputText with intent </h4>
-                <InputText value={'prabir'} intent={0} />
+                <InputText value={this.state.value1} intent={0} />
 
 
                 <h4>  InputText with intent </h4>
-                <InputText value={'prabir'} intent={1} />
+                <InputText value={this.state.value1} intent={1} />
 
 
                 <h4>  InputText with intent </h4>
-                <InputText value={'prabir'} intent={2} />
+                <InputText value={this.state.value1} intent={2} />
 
 
                 <h4>  InputText with intent </h4>
-                <InputText value={'prabir'} intent={3} />
+                <InputText value={this.state.value1} intent={3} />
 
                 <h4>  InputText with disabled </h4>
-                <InputText value={'prabir'} disabled />  
+                <InputText value={'prabir'} disabled />
 
                 <h4>  InputText with placeholder </h4>
-                <InputText placeholder={'Enter name'} /> 
+                <InputText placeholder={'Enter name'} />
 
                 <h4>  InputText with type </h4>
-                <InputText type={'password'} /> 
-                
+                <InputText type={'password'} />
+
 
             </div>
         )
