@@ -5,7 +5,8 @@ import { BaseComponent } from '../components/basecomponent/BaseComponent';
 
 import { InputNumberShowcase } from './InputNumberShowcase';
 import { InputTextShowcase } from './InputTextShowcase';
-import { InputTextareaShowcase } from './InputTextareaShowcase'
+import { InputTextareaShowcase } from './InputTextareaShowcase';
+import { InputPasswordShowcase } from './InputPasswordShowcase';
 
 
 export interface ShowcaseProps { compiler: string; framework: string; }
@@ -18,6 +19,7 @@ export class Showcase extends React.Component<ShowcaseProps, {}> {
             <Tab2 id='in' title='Inputnumber' panel={this.renderBaseComponent(< InputNumberShowcase />)} />
             <Tab2 id='it' title='InputText' panel={this.renderBaseComponent(<InputTextShowcase />)} />
             <Tab2 id='textarea' title='TextArea' panel={this.renderBaseComponent(<InputTextareaShowcase />)} />
+            <Tab2 id='tp' title='TextPassword' panel={this.renderBaseComponent(<InputPasswordShowcase />)} />
 
         </Tabs2>)
     }
