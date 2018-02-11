@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { InputText } from '../components/inputtext/InputText';
+import { InputText } from '../components';
 
 export interface InputTextShowcaseState {
     value1?: string;
