@@ -7,7 +7,7 @@ export class InputPasswordShowcase extends React.Component<{}, InputTextShowcase
     public render(){
         return (
             <div>
-            <h4>  InputText with type password </h4>
+            <h4>  Input Password </h4>
             <InputPassword />
             </div>
         );

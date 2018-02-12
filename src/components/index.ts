@@ -5,4 +5,4 @@ export * from './inputtext';
 export * from './inputtextarea';
 export * from './icon';
 export * from './cards';
-
+export * from './inputsearch';
