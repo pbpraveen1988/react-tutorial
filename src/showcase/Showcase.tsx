@@ -2,13 +2,12 @@ import * as React from 'react';
 import * as Blueprint from '@blueprintjs/core';
 import { Tab2, Tabs2 } from '@blueprintjs/core';
 import { BaseComponent } from '../components/basecomponent/BaseComponent';
-
 import { InputNumberShowcase } from './InputNumberShowcase';
 import { InputTextShowcase } from './InputTextShowcase';
 import { InputTextareaShowcase } from './InputTextareaShowcase';
 import { InputPasswordShowcase } from './InputPasswordShowcase';
 import { InputSearchShowcase } from './InputSearchShowcase';
-
+import { IconShowcase } from './IconShowcase';
 export interface ShowcaseProps { compiler: string; framework: string; }
 
 // 'HelloProps' describes the shape of props.
@@ -20,6 +19,7 @@ export class Showcase extends React.Component<ShowcaseProps, {}> {
             <Tab2 id='it' title='InputText' panel={this.renderBaseComponent(<InputTextShowcase />)} />
             <Tab2 id='textarea' title='TextArea' panel={this.renderBaseComponent(<InputTextareaShowcase />)} />
             <Tab2 id='tp' title='TextPassword' panel={this.renderBaseComponent(<InputPasswordShowcase />)} />
+            <Tab2 id='icon' title='Icons' panel={this.renderBaseComponent(<IconShowcase />)} />
             <Tab2 id='ts' title='TextSearch' panel={this.renderBaseComponent(<InputSearchShowcase />)} />
         </Tabs2>)
     }
