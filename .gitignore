@@ -1,5 +1,7 @@
-dist\bundle.js
+node_modules
+dist
 dist/bundle.js.map
-node_modules/
 dist/bundle.js
+package-lock.json
 dist/bundle.js.map
+dist/bundle.js
