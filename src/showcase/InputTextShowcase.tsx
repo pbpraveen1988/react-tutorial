@@ -12,8 +12,9 @@ export class InputTextShowcase extends React.Component<{}, InputTextShowcaseStat
      */
     constructor(props: any) {
         super(props);
-        this.state = { value1: 'prabir' }
+        this.state = { value1: 'praveen' }
     }
+
 
     public render() {
         return (
@@ -45,9 +46,15 @@ export class InputTextShowcase extends React.Component<{}, InputTextShowcaseStat
                 <h4>  InputText with placeholder </h4>
                 <InputText placeholder={'Enter name'} />
 
-               
+
 
             </div>
         )
     }
+
+
+
+
+
+
 }
