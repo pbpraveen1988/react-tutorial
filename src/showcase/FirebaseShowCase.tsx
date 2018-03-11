@@ -8,7 +8,8 @@ export interface FirebaseShowCaseProps {
 
 export interface FirebaseShowCaseState {
     userList?: Record[];
-    loading?:boolean;
+    loading?: boolean;
+    error?: string;
 }
 
 export class FirebaseShowCase extends React.Component<FirebaseShowCaseProps, FirebaseShowCaseState>
@@ -19,7 +20,7 @@ export class FirebaseShowCase extends React.Component<FirebaseShowCaseProps, Fir
      */
     constructor(props: FirebaseShowCaseProps) {
         super(props);
-        this.state = { userList: [],loading:true }
+        this.state = { userList: [], loading: true }
         console.log('ctor');
     }
 
@@ -31,36 +32,28 @@ export class FirebaseShowCase extends React.Component<FirebaseShowCaseProps, Fir
         console.log('render');
 
 
-        if(this.state.loading)
-        {
+        if (this.state.loading) {
             return 'Loading.......';
         }
         return (<div>
             {this.state.userList && this.state.userList.map((user: Record, index: number) => {
-                return (<li> {user.uuid} </li>)
+                return (<li key={index}  > {user.name} -  {user.email} </li>)
             })}
         </div>);
     }
 
 
-    public async componentDidMount() {
+    public componentDidMount() {
         console.log('componentDiMount');
-        Firebase.auth().signInWithEmailAndPassword('praveen@yopmail.com', '123456789')
-            .then((response: any) => {
-                const user = Firebase.auth().currentUser;;
-                const _userlist = this.state.userList;
-                _userlist.push({ uuid: user.uid, email: user.email });
-                this.setState({ userList: _userlist,loading :false });
-            })
+        this.initApi();
 
 
     }
 
-
     /***  State Change */
     public shouldComponentUpdate() {
         console.log('shouldComponentUpdate');
-        return true;
+        return false;
     }
 
     public componentWillUpdate() {
@@ -88,8 +81,25 @@ export class FirebaseShowCase extends React.Component<FirebaseShowCaseProps, Fir
         console.log('componentWillUnMount');
     }
 
+    public componentDidCatch(info: any, err: any) {
+        console.log(err, info);
+    }
 
+    private async initApi() {
+        return Firebase.auth().signInWithEmailAndPassword('praveen@yopmail.com', '123456789')
+            .then((response: any) => {
+                Firebase.database().ref('users').on('value', (snapshot: any) => {
+                    const __array: Record[] = snapshot.val();
+                    const _userlist: Record[] = [];
+                    __array.forEach((user: Record) => {
+                        _userlist.push({ name: user.name, email: user.email });
+                    });
 
-
+                    this.setState({ userList: _userlist, loading: false });
+                })
+            }).catch(err => {
+                throw err;
+            });
+    }
 
 }
