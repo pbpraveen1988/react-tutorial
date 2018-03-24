@@ -13,7 +13,287 @@ export interface ShowcaseProps { compiler: string; framework: string; }
 
 export const Showcase: React.SFC<ShowcaseProps> = (props) => {
     return (
-        <TabPivot initialSelectedIndex={0}>
+
+        <TabPivot initialSelectedIndex={0} linkFormat={1} >
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
+            <TabPivotItem linkText='Inputnumber'>
+                <h2>InputNumber</h2>
+            </TabPivotItem>
             <TabPivotItem linkText='Inputnumber'>
                 <h2>InputNumber</h2>
             </TabPivotItem>

@@ -5,8 +5,6 @@ import { PivotLinkFormat } from 'office-ui-fabric-react';
 import { PivotLinkSize } from 'office-ui-fabric-react';
 import { PivotItem } from 'office-ui-fabric-react';
 
-
-
 export interface ITabPivotProps {
     componentRef?: (component: IPivot) => void;
     getTabId?: (itemKey: string, index: number) => string;
@@ -22,9 +20,11 @@ export interface ITabPivotProps {
 }
 
 export const TabPivot: React.SFC<ITabPivotProps> = (props) => {
-    return (<Pivot   {...props} >
-        {props.children && props.children.map((val: PivotItem, index: number) => {
-            return <PivotItem {...val.props} linkText={val.props.linkText} key={index} children={val.props.children} />
-        })}
-    </Pivot>);
+    return (
+        <Pivot   {...props} >
+            {props.children && props.children.map((val: PivotItem, index: number) => {
+                return <PivotItem {...val.props} linkText={val.props.linkText} key={index} children={val.props.children} />
+            })}
+        </Pivot>
+    );
 }
