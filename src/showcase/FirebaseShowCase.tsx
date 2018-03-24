@@ -53,7 +53,7 @@ export class FirebaseShowCase extends React.Component<FirebaseShowCaseProps, Fir
     /***  State Change */
     public shouldComponentUpdate() {
         console.log('shouldComponentUpdate');
-        return false;
+        return true;
     }
 
     public componentWillUpdate() {

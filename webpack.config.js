@@ -1,5 +1,5 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
     filename: 'index.html',
@@ -12,8 +12,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
     entry: {
         'bundle': "./src/index.tsx",
-        'blueprint': "@blueprintjs/core/dist/blueprint.css",
-        'normalize': "normalize.css/normalize.css",
+        'fabric': "office-ui-fabric-react/dist/css/fabric.css",
     },
     output: {
         filename: '[name].js',
