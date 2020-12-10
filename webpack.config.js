@@ -29,6 +29,7 @@ module.exports = {
         open: 'http://localhost:9000',
         port: 9000,
         publicPath: "/",
+        inline: false,
     },
     node: {
         __filename: true,
@@ -59,9 +60,9 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
-                query: {
-                    presets: ['react', 'env']
-                }
+                // query: {
+                //     presets: ['react', 'env']
+                // }
             },
             {
                 test: /.(ico|png|jpg|gif|svg|eot|ttf|woff|woff2)(\?.+)?$/,

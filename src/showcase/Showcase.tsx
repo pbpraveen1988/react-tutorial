@@ -8,7 +8,7 @@ import { InputTextareaShowcase } from './InputTextareaShowcase';
 import { InputPasswordShowcase } from './InputPasswordShowcase';
 import { InputSearchShowcase } from './InputSearchShowcase';
 import { IconShowcase } from './IconShowcase';
-import { FirebaseShowCase } from './FirebaseShowCase';
+// import { FirebaseShowCase } from './FirebaseShowCase';
 export interface ShowcaseProps { compiler: string; framework: string; }
 
 // 'HelloProps' describes the shape of props.
@@ -22,7 +22,7 @@ export class Showcase extends React.Component<ShowcaseProps, {}> {
             <Tab2 id='tp' title='TextPassword' panel={this.renderBaseComponent(<InputPasswordShowcase />)} />
             <Tab2 id='icon' title='Icons' panel={this.renderBaseComponent(<IconShowcase />)} />
             <Tab2 id='ts' title='TextSearch' panel={this.renderBaseComponent(<InputSearchShowcase />)} />
-            <Tab2 id='firebase' title='FirebaseShowCase' panel={this.renderBaseComponent(<FirebaseShowCase />)} />
+            {/* <Tab2 id='firebase' title='FirebaseShowCase' panel={this.renderBaseComponent(<FirebaseShowCase />)} /> */}
         </Tabs2>)
     }
 
